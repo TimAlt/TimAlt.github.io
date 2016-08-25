@@ -1,0 +1,36 @@
+body {
+	background: url("../Images/Iguana160824.svg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #222222;
+	color: white;
+}
+
+.jumbotron{
+	text-align: center;
+	color: white;
+	text-shadow: .2em .2em black;
+}
+
+.col-sm-12{
+	border: .25em solid #442233;
+	border-radius: 2em;
+	background-color: rgba(34,34,34,0.7);
+}
+
+img {
+	border: .25em solid #554455;
+	padding: .25em;
+	background-color: #442233;
+}
+
+.btn-default{
+	background-color: #222222;
+	color: white;
+	outline-color: #ff00ff;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #440033;
+    color: white;
+}
